@@ -4,3 +4,5 @@ function tocaSomPom () {
 }
 
 document.querySelectorAll('.tecla')
+
+const ListaDeteclas
