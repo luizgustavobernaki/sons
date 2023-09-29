@@ -4,5 +4,5 @@ function tocaSomPom () {
 }
 
 
-const ListaDeteclas = document.querySelectorAll('.tecla')
+const ListaDeteclas = document.querySelectorAll('.tecla');
 
