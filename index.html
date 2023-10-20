@@ -22,7 +22,9 @@
     <h1>Alura Midi</h1>
 
     <section class="teclado">
-        <button onclick="tocaSomPom()" class="tecla tecla_pom">1</button>
+        <button onclick="tocaSomPom()" class="tecla tecla_pom">1</button <audio id="myAudio" src="caminho_do_seu_audio.mp3" preload="auto"></audio>
+            <button onclick="document.getElementById('myAudio').pause()">Pausar</button>
+            <button onclick="document.getElementById('myAudio').play()">Reproduzir</button>>
         <button onclick="tocaSomClap()" class="tecla tecla_clap">2</button>
         <button onclick="tocaSomTim()" class="tecla tecla_tim">3</button>
 
