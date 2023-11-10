@@ -8,8 +8,8 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
-//enquanto
-while (contador < listaDeTeclas.length) {
+//para
+for (contador < listaDeTeclas.length) {
 
 const tecla = listaDeTeclas[contador];
 
