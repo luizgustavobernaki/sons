@@ -18,4 +18,5 @@ const tecla = listaDeTeclas[contador];
         tocaSom(idAudio)
     }
     console.log(contador);
+    
 }
