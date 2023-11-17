@@ -20,7 +20,7 @@ const tecla = listaDeTeclas[contador];
     console.log(contador);
 
     tecla.onkeydown = function (evento) {
-        console.log(evento)
+        console.log(evento.code)
         if ('') {
              tecla.listaDeTeclas.add('ativa');
         }
