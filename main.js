@@ -19,8 +19,12 @@ const tecla = listaDeTeclas[contador];
     }
     console.log(contador);
 
-    tecla.onkeydown = function () {
-        tecla.listaDeTeclas.add('ativa');
+    tecla.onkeydown = function (evento) {
+        console.log(evento)
+        if ('') {
+             tecla.listaDeTeclas.add('ativa');
+        }
+       
     }
     tecla.onkeyup = function () {
         tecla.listaDeTeclas.remove('ativa');
