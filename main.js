@@ -2,12 +2,13 @@
 function tocaSom (selectorAudio) {
 
     const elemento = document.querySelector(selectorAudio);
-    if (elemento === null) {
-        //alert('Elemento não encontrado');
-        console.log('Elemento não encontrado');
-    }
+
     if (elemento != null && elemento.localName ==='audio') {
     elemento.play();
+        }
+        else{
+         //alert('Elemento não encontrado');
+        console.log('Elemento não encontrado');   
         }
 
 }
