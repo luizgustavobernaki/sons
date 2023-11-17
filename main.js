@@ -24,6 +24,10 @@ const tecla = listaDeTeclas[contador];
         if (evento.code === 'Space') {
              tecla.listaDeTeclas.add('ativa');
         }
+
+        if (evento.code ==='Enter') {
+           tecla.classList.add('ativa'); 
+        }
        
     }
     tecla.onkeyup = function () {
