@@ -17,13 +17,12 @@ const tecla = listaDeTeclas[contador];
     tecla.onclick = function(){
         tocaSom(idAudio)
     }
+    console.log(contador);
 
     tecla.onkeydown = function () {
-        tecla.classList.add('ativa');
+        tecla.listaDeTeclas.add('ativa');
     }
-
     tecla.onkeyup = function () {
-        tecla.classList.remove('ativa');
+        tecla.listaDeTeclas.remove('ativa');
     }
-    
 }
