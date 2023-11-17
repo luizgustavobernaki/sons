@@ -17,6 +17,9 @@ const tecla = listaDeTeclas[contador];
     tecla.onclick = function(){
         tocaSom(idAudio)
     }
-    console.log(contador);
+
+    tecla.onkeydown = function () {
+        tecla.classList.add('ativa');
+    }
     
 }
