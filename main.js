@@ -7,7 +7,10 @@ function tocaSom (selectorAudio) {
         console.log('Elemento não encontrado');
     }
     if (elemento != null) {
-elemento.play();
+        if (elemento.localName ==='audio') {
+    elemento.play();
+        }
+
     }
 }
 
