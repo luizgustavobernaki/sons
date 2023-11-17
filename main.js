@@ -20,8 +20,8 @@ const tecla = listaDeTeclas[contador];
     console.log(contador);
 
     tecla.onkeydown = function (evento) {
-        console.log(evento.code)
-        if ('') {
+        console.log(evento.code == 'Space')
+        if (evento.code === 'Space') {
              tecla.listaDeTeclas.add('ativa');
         }
        
